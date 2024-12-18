@@ -75,11 +75,11 @@ public partial class Form1 : Form
                     currentStep++;
                     UpdateProgress(currentStep, totalSteps);
                 }
-                MessageBox.Show("Successfully compressed..");
                 // Display folder paths in the TextBox
                 TextBox textBox = sender as TextBox;
                 textBox.Text = ""; // Clear old content
                 textBox.Text = string.Join(Environment.NewLine, paths);
+                MessageBox.Show("Successfully compressed..");
             }
         }
         catch(Exception ex)
