@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetAppCompressor", "DotnetAppCompressor\DotnetAppCompressor.csproj", "{66032467-3A59-4D02-93DA-CEEF2C2EDFA0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DotnetAppCompressorSetup", "DotnetAppCompressorSetup\DotnetAppCompressorSetup.vdproj", "{04D3CADD-F1BC-4B99-911C-8CA81412BEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{66032467-3A59-4D02-93DA-CEEF2C2EDFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66032467-3A59-4D02-93DA-CEEF2C2EDFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66032467-3A59-4D02-93DA-CEEF2C2EDFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D3CADD-F1BC-4B99-911C-8CA81412BEFC}.Debug|Any CPU.ActiveCfg = Debug
+		{04D3CADD-F1BC-4B99-911C-8CA81412BEFC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
